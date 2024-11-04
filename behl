@@ -1,0 +1,115 @@
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    /* for the logo image at video banner */
+    .banner_main .logo {
+        height: 29px;
+        margin-left: -23px;
+        
+    }
+
+    .carousel-caption {
+        
+        bottom: 0;   /*main.css line 123, REMOVED ALL FROM INDEX 5783 */
+        left: 5%;
+        text-align: left;
+
+    }
+
+    .carousel-caption h2 { /*main.css line 150,  */
+        COLOR: aqua;
+        margin: 0;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+    .carousel-caption p { /*main.css line 198,  */
+        
+        margin: 4px 0 0;
+        background-color: #ff002d;
+        padding: 0px;
+        FONT-SIZE: 13px;
+    }
+/*added a class="hide-on-mobile pn path jo maroon color kae hai to hide it only in mobile view "**/
+    path.hide-on-mobile {
+        display: none;
+    }
+
+    .section_spacing_main { /*main.css line 181,  */
+        
+        padding: 36px 0px 0px;
+    }
+    .beml_title_index {/*main.css line 256,  */
+       
+        font-size: 24px;
+        font-weight: 600;
+        
+    }
+    .beml_limited_content_left img {/*added own img class added manuualy*/
+        width: 11%;
+        margin-right: 3%;
+    }
+
+    .beml_limited_content_left h3 {/*main.css line 271,  */
+        
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 13px;
+        margin-left: -27%;
+        margin-right: -9%;
+    }
+    .beml_limited_content_left p {/*main.css line 285,  */
+     
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 12px;
+        color: rgba(0, 0, 0, 1);
+        margin-left: -27%;
+        margin-right: -9%;
+    }
+    .beml_limited_main {/*main.css line 185,  */
+        padding-bottom: 14px;
+    }
+    .carousel_services .carousel_content {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .carousel_services .carousel_content::before {
+        content: '';
+        width: 0px;
+        height: 0px;
+        background-color: #00a4ff;
+        display: block;
+    }
+    .spacing_max-widthoput h3 {/*main.css line 333,  */
+        max-width: 100%;
+    }
+    .beml_offers_quality_main h3 {/*main.css line 324,  */
+     
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        
+    }
+    .media-object {
+        margin-bottom: 10px;
+    }
+    .beml_offers_quality_main {
+        padding-bottom: 60px;
+    }
+    .indigenisation_levels_main .beml_title_index {
+        margin-bottom: 28px;
+    }
+   
+}
+
+//////////////////////////////SECTIONS LEFT ARE 
+
+INDIGWSTION LEVELS
+USKE NEECHE 3 TABLE
+OUR LEADERSHIP WALA ,CONTENT UPPAR ,PHOTO NEECHE
+PHIR MEDIA RELEASES, TEENO SAME SIZE KAE 
+OUR VALUE STATEMENT -SIRF SIZE UP DOWN
+UPDATES-MARQUEE TOOL 
+MEET OUR CLIENTS
+
+BUS ETNA HI KARAEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!1
+

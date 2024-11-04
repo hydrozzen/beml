@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Overlap Example</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; /* Full height for demonstration */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Relative positioning for absolute child */
+        }
+
+        .div1 {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: relative; /* Position relative for overlap */
+            z-index: 1; /* Ensure it is below the second div */
+        }
+
+        .div2 {
+            width: 200px;
+            height: 200px;
+            background-color: lightcoral;
+            position: absolute; /* Position absolute to overlap */
+            top: 50%; /* Start at the middle of div1 */
+            left: 15%; /* Adjust left to overlap */
+            transform: translateY(-30%); /* Move it up by 30% of its height */
+            z-index: 2; /* Ensure it is above div1 */
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">Div 1</div>
+    <div class="div2">Div 2 (30% overlap)</div>
+</body>
+</html>
