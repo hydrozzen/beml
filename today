@@ -1,0 +1,17 @@
+
+
+.news_eventsminer_boxcard.rightimag img {
+aspect-ratio: auto;
+}
+.anouncement_updates_main h3 {
+    font-family: Bai Jamjuree;
+    font-size: 15px;}
+marquee {
+    width: 256px;
+    margin-left: 70px;
+    font-size: 15px;
+}
+.bottom_footer_inner ul li a {
+    font-size: 11px;
+}
+footer mei c wala cheez next ul mei likha br tag hata kar
