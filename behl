@@ -1,5 +1,16 @@
+/* need to be implemented at main css file in order to make the height the same of 3 boxes  */
+
+.news_eventsminer_boxcard.rightimag img {
+    max-height: 173px !important;
+}
+
+
+.mobile-view-only-our-values{
+    display: none;
+}
+
 /* Styles for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     /* for the logo image at video banner */
     .banner_main .logo {
         height: 29px;
@@ -16,7 +27,7 @@
     }
 
     .carousel-caption h2 { /*main.css line 150,  */
-        COLOR: aqua;
+        COLOR: rgb(255, 255, 255);
         margin: 0;
         font-size: 24px;
         margin-bottom: 5%;
@@ -24,9 +35,12 @@
     .carousel-caption p { /*main.css line 198,  */
         
         margin: 4px 0 0;
-        background-color: #ff002d;
+        background-color: #b62920;
         padding: 0px;
         FONT-SIZE: 13px;
+    }
+    .beml-line1 svg path {
+        display: none;
     }
 /*added a class="hide-on-mobile pn path jo maroon color kae hai to hide it only in mobile view "**/
     path.hide-on-mobile {
@@ -95,21 +109,286 @@
     .beml_offers_quality_main {
         padding-bottom: 60px;
     }
+    .indigenisation_levels_main {
+        padding-top: 28px;
+    }
+
+
+
     .indigenisation_levels_main .beml_title_index {
         margin-bottom: 28px;
     }
+
+    .data_count_mainper p {/*main.css line 458,  */
+        font-size: 23px;}
+        #wpsm_progress_b_row_69578 .wpsm_progress .wpsm_progress-value {/*INDEX 4797,  */
+            font-size: 16px;
    
-}
+        }
+     
+
+
+
+        #wpsm_progress_b_row_69578 .wpsm_progress .wpsm_progress-title {/*INDEX 4871,  */
+            font-size: 16px;
+   
+        }
+        #wpsm_progress_b_row_69578 .wpsm_progress .wpsm_progress-value {/*INDEX 4797,  */
+            font-size: 16px;
+   
+        }
+        #wpsm_progress_b_row_69740 .wpsm_progress .wpsm_progress-title {/*INDEX 4871,  */
+            font-size: 16px;
+   
+        }
+        #wpsm_progress_b_row_69740 .wpsm_progress .wpsm_progress-value {/*INDEX 4797,  */
+            font-size: 16px;
+   
+        }
+        #wpsm_progress_b_row_69745 .wpsm_progress .wpsm_progress-title{/*INDEX 5044,  */
+            font-size: 16px;
+   
+        } 
+        #wpsm_progress_b_row_69745 .wpsm_progress .wpsm_progress-value {/*INDEX 4797,  */
+            font-size: 16px;
+   
+        }
+        #wpsm_progress_b_row_69746 .wpsm_progress .wpsm_progress-title {/*INDEX 5125,  */
+            font-size: 16px;
+   
+        } 
+        #wpsm_progress_b_row_6946 .wpsm_progress .wpsm_progress-value {/*INDEX 4797,  */
+            font-size: 16px;
+   
+        }
+
+        .border_left_rightsep {/*main.css line 494,  */
+        display: none;
+        }
+        .news_eventsminer_boxcard.rightimag {/*main.css line 885,  */
+            margin-right: -12%;
+        }
+     
+           
+            .leftbutton a {
+                font-size: 9.36px;
+                font-weight: 400;
+                line-height: 5.03px;
+                padding: 6px 6px;
+                width: fit-content;
+                text-decoration: none;
+                text-wrap: nowrap;
+                margin-right: 8px;
+        }
+        .overlay_content_statements p {
+            font-family: Roboto;
+            font-size: 8px;
+            font-weight: 600;
+            line-height: 9.09px;
+            color: rgba(255, 255, 255, 1);
+        }
+        .anouncement_updates_main {
+            padding: 0px 0px;}
+
+        .cmds_message_main{
+            background: #fff9ee;
+
+        }
+        .cmds_message_main {
+            height: 490px;
+            max-height: 470px;
+        }
+        #lineMID{
+            display: none;
+        }
+/*created own class for our values ,put this class in 4 divs total 5 divs want only 1 to view in mobile "**/
+        .mobile-nodisplay {
+            display: none;
+        }
+        .overlay_content_statements p {
+            text-align: center;
+            font-size: 24px;
+        }
+        .updates_announcements{
+            margin-top: -23px;
+           
+        }
+        .marqueephone{
+            
+            color: #fff;
+        width: 270px;
+        position: absolute;
+        left: 98px;
+    
+        }
+        .justify-content-end {
+            -ms-flex-pack: end !important;
+            justify-content: flex-start !important;
+        }
+        
+.news_eventsminer_boxcard.rightimag img {
+    aspect-ratio: auto;
+    }
+    .anouncement_updates_main h3 {
+        font-family: Bai Jamjuree;
+        font-size: 15px;}
+    marquee {
+        width: 256px;
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .bottom_footer_inner ul li a {
+        font-size: 11px;
+    }
+
+    .crouseldata_scroll_uiiuy h2 {
+        font-size: 22px;
+    }
+    .crouseldata_scroll_uiiuy p {
+    font-size: 11px;
+    }
+
+    a.mobile-down {
+        /* background-color: aqua; */
+        margin-top: 51px;
+        margin-left: -171px;
+        margin-right: -131px;
+        margin-bottom: 8px;
+        text-align: left;
+    }
+
+    section.our_value_statements_main.section_spacing_main {
+        display: none;
+    }
+    .mobile-view-only-our-values{
+        display: unset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* Container for the horizontal scroll */
+    .scroll-container {
+        display: flex;               /* Flexbox to arrange items horizontally */
+        overflow-x: auto;            /* Enable horizontal scrolling */
+        scroll-behavior: smooth;     /* Smooth scrolling */
+        padding: 10px 0;             /* Padding around the container */
+        width: 100%;                 /* Full width of the container */
+        box-sizing: border-box;  
+        margin-bottom: 9px;    /* Ensure padding is included in the width */
+      }
+  
+      /* Image item */
+      .image-container {
+        flex-shrink: 0;              /* Prevent images from shrinking */
+        margin-right: 15px;          /* Space between images */
+        height: 200px;               /* Fixed height for images */
+        position: relative;   
+        margin-left: 4px;       /* To position the caption over the image */
+      }
+  
+      .image-container img {
+        width: 100%;
+        margin-left: 5px;
+        border-radius: 12px;                /* Set image width */
+        height: 100%;                /* Make image take full height of the container */
+        object-fit: cover;           /* Make sure image covers the container without distortion */
+      }
+  
+      /* Caption inside the image */
+      .caption {
+        position: absolute;
+        bottom: 10px;                /* Position the caption at the bottom of the image */
+        left: 0;
+        width: 100%;                 /* Take full width of the image */
+        color: white;                /* White text color for the caption */
+      
+        text-align: center;          /* Center the text */
+        padding: 5px 0;              /* Padding around the caption */
+        font-size: 16px;             /* Font size of the caption */
+        font-weight: bold;           /* Make the text bold */
+      }
+  
+      /* Optional: Style the scrollbar */
+      .scroll-container::-webkit-scrollbar {
+        height: 8px;                 /* Set height of scrollbar */
+      }
+  
+      .scroll-container::-webkit-scrollbar-thumb {
+        background-color: #888;      /* Color of the scrollbar */
+        border-radius: 5px;          /* Round the edges of the scrollbar */
+      }
+  
+      .scroll-container::-webkit-scrollbar-thumb:hover {
+        background-color: #555;      /* Color when hovering over scrollbar */
+      }
+    
+
+    
+   
+    }
+
+
+
+
+
+    @media only screen and (min-width: 768px) and (max-width: 1100px)  {
+        .news_eventsminer_boxcard.rightimag img {
+           object-fit: contain !important;
+        }
+       
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 767px)  {
+            .news_eventsminer_boxcard.rightimag img {
+                max-height: 410px !important;
+                object-fit: cover !important;
+            }
+           
+            }
+
+
 
 //////////////////////////////SECTIONS LEFT ARE 
 
-INDIGWSTION LEVELS
-USKE NEECHE 3 TABLE
-OUR LEADERSHIP WALA ,CONTENT UPPAR ,PHOTO NEECHE
-PHIR MEDIA RELEASES, TEENO SAME SIZE KAE 
-OUR VALUE STATEMENT -SIRF SIZE UP DOWN
-UPDATES-MARQUEE TOOL 
-MEET OUR CLIENTS
+mobile view kae liyae our value statement hai vo bhi hai
 
-BUS ETNA HI KARAEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!1
 
+.scroll-container {
+    background-color: #fff9ee; , scroll container already present 
+}
+marquee {
+    width: auto;scroll marquee already present 
+}
+
+.border_left_rightsep {
+    border-left: 0px;                  yae add karna hain 
+    border-right: 0px;
+}
+
+.border_left_rightsep {
+    display: unset;          replace krna hai
+}
+
+
+//////////////11111111111111111111111111/////////////////////////////////////////////
+tablet part 
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+ 
+  }
